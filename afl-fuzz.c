@@ -7376,7 +7376,7 @@ EXP_ST void setup_dirs_fds(void) {
 
     fprintf(plot_file, "# unix_time, cycles_done, cur_path, paths_total, "
                        "pending_total, pending_favs, map_size, unique_crashes, "
-                       "unique_hangs, max_depth, execs_per_sec,"
+                       "unique_hangs, max_depth, execs_per_sec, "
                        "total_fuzz, total_select, total_energy_used\n");
     /* ignore errors */
 
